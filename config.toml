@@ -1,3 +1,10 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Ta'atik"
+theme = "introduction"
+
+[params]
+    themeStyle                   = "auto"                  # Choose "light" or "dark" or "auto"
+    favicon                      = "/img/favicon.png"      # Path to favicon file
+    dateFormat                   = "Jan 2, 2006"
+    email                        = "youremail@email.com"   # E-mail address for contact section
