@@ -5,18 +5,6 @@ theme = "introduction"
 
 [params]
     themeStyle                   = "auto"                  # Choose "light" or "dark" or "auto"
-    favicon                      = "/img/favicon.png"      # Path to favicon file
-    dateFormat                   = "Jan 2, 2006"
-    email                        = "youremail@email.com"   # E-mail address for contact section
-baseURL                          = "http://example.com/"   # Your domain name. Must end with "/"
-theme                            = "introduction"
-DefaultContentLanguage           = "en"                    # Default language for multilingual sites
-# disqusshortname                 = ""                     # https://gohugo.io/content-management/comments
-# googleAnalytics                 = ""                     # https://gohugo.io/templates/internal/#google-analytics
-title = "Ta'atik"
-
-[params]
-    themeStyle                   = "auto"                  # Choose "light" or "dark" or "auto"
     favicon                      = "/img/favicon.ico"          # Path to favicon file
     showRSSButton                = false                   # Show rss button in navigation
     fadeIn                       = true                    # Turn on/off the fade-in effect
@@ -26,6 +14,9 @@ title = "Ta'atik"
     # customCSS                  = ["foo.css"]             # Include custom css files placed under assets/
     # customJS                   = ["foo.js"]              # Include custom JavaScript files placed under assets/
     # plausible                  = true                    # Use Plausible analytics (requires an account at Plausible.io)
+    DefaultContentLanguage       = "en"                    # Default language for multilingual sites
+    # disqusshortname            = ""                     # https://gohugo.io/content-management/comments
+    # googleAnalytics            = ""                     # https://gohugo.io/templates/internal/#google-analytics
 
     # Configure the home page
     [params.home]
