@@ -17,6 +17,7 @@ theme = "introduction"
     DefaultContentLanguage       = "en"                    # Default language for multilingual sites
     # disqusshortname            = ""                     # https://gohugo.io/content-management/comments
     # googleAnalytics            = ""                     # https://gohugo.io/templates/internal/#google-analytics
+    fbShareImage                 = "/img/scroll-full-1200.png"
 
     # Configure the home page
     [params.home]
@@ -104,7 +105,7 @@ theme = "introduction"
         weight           = 0
         title            = "Ta'atik"
         [languages.en.params]
-            description  = "Ta'atik is an organization that makes ancient texts more accessible for the digital age"   # Max 160 characters show in search results
+            description  = "Making ancient texts for the digital age"   # Max 160 characters show in search results
             # footerText   = ""                      # Text to override default footer text (markdown allowed)
 
     # [languages.es]
