@@ -2,6 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Ta'atik"
 theme = "introduction"
+googleAnalytics = "G-YGH68MTPX9"  
 
 [params]
     themeStyle                   = "auto"                  # Choose "light" or "dark" or "auto"
@@ -16,7 +17,6 @@ theme = "introduction"
     # plausible                  = true                    # Use Plausible analytics (requires an account at Plausible.io)
     DefaultContentLanguage       = "en"                    # Default language for multilingual sites
     # disqusshortname            = ""                     # https://gohugo.io/content-management/comments
-    googleAnalytics              = "G-YGH68MTPX9"                     # https://gohugo.io/templates/internal/#google-analytics
     fbShareImage                 = "/img/scroll-full-1200.png"
     images                       = ["/img/scroll-full-1200.png"]
 
