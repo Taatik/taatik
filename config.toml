@@ -133,6 +133,7 @@ googleAnalytics = "G-YGH68MTPX9"
     [languages.he]
         languageName     = "עברית"
         languageCode     = "he"
+        languagedirection = "rtl"
         contentDir       = "content/he"
         weight           = 2
         title            = "תע׳עתיק"
