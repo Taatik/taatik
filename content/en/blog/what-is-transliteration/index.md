@@ -23,9 +23,9 @@ A שׁ makes the "sh" sound, what's so difficult about that?
 
 To make a good transliteration 3 factors must be taken into consideration:
 
-1. the goal of the transliteration
-2. the audience's target language _&_ script
-3. the source language _&_ script
+1. The goal of the transliteration
+2. The audience's target language _&_ script
+3. The source language _&_ script
 
 ## The Goal
 
