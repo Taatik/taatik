@@ -10,8 +10,8 @@ author: "Charles Loder"
 ## What Transliteration Is and Is Not
 
 Translators often have to wrestle with the nuances of their languages.
-Words can sometimes have semantic domains that do no neatly map to words in the language into which they're translating.
-Choices are made at every level to capture the author's meaning while simultaneously ensuring that the translatin is intellegible.
+Words can sometimes have semantic domains that do not neatly map to words in the language into which they're translating.
+Choices are made at every level to capture the author's meaning while simultaneously ensuring that the translation is intellegible.
 
 Unlike translation where one translates from one _language_ into another _language_, transliteration involves going from one _script_ into another _script_; the language remains the same.
 
