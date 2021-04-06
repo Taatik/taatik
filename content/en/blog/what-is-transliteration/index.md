@@ -36,21 +36,21 @@ For those in Hebraic studies, _šālôm_ may be a perfectly reasonable translite
 
 ### Intent
 
-The second consideration closely linked to the first is the intent.
+The second consideration, closely linked to the first, is the intent.
 What is this transliteration attempting to do?
 
-If the intent is to simply put transliterate Hebrew characters to avoid having right-to-left text, then any transliteration will do.
-If the intent is to highlight a relationship between words that would otherwise be obscured by their respective scripts, then a more technical transliteration may be in order (e.g. Arabic سلام _salām_ and Hebrew שׁלום _šālôm_ are related but that is not immediaty evident by their scripts).
+If the intent is to simply put transliterated Hebrew characters to avoid having right-to-left text, then any transliteration will do. <br/>
+If the intent is to highlight a relationship between words that would otherwise be obscured by their respective scripts, then a more technical transliteration may be in order (e.g. Arabic سلام _salām_ and Hebrew שׁלום _šālôm_ are related but that is not immediaty evident by their scripts). <br/>
 If the intent is to make the text readable and easily pronounced, then a transliteration that conforms to rules recognizable to the reader is better (e.g. _shalom_).
 
-Most of Ta'tik's modules are aimed at making Hebrew text readable for those who don't read Hebrew.
+Most of Ta'atik's modules are aimed at making Hebrew text readable for those who don't read Hebrew.
 
 ## The Audience's Target Language _&_ Script
 
 Any language can be written in any script.
 My name written in Hebrew — צ׳ארלס — is still an English name though written in the Hebrew script.
 Even Hebrew itself is said to be written in the Aramaic script ([Megillah 1:8b.19](https://www.sefaria.org/Megillah.8b.19?lang=bi))!
-Because Ta'atik wants to make modules that useful to the speakers and readers of those languages, we use the scripts common to those languages.
+Because Ta'atik wants to make modules that are useful to the speakers and readers of those languages, we use the scripts common to those languages.
 
 Though in transliteration the _language_ remains the same (i.e. the source language), the target language is understood as the orthography and script of a particular audience.
 Readers of English readily recognize "sh" as the /sh/ sound,[^1] whereas German readers more readily understand "sch" as the /sh/ sound.
