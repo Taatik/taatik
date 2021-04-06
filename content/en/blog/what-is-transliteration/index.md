@@ -49,7 +49,7 @@ Most of Ta'atik's modules are aimed at making Hebrew text readable for those who
 
 Any language can be written in any script.
 My name written in Hebrew — צ׳ארלס — is still an English name though written in the Hebrew script.
-Even Hebrew itself is said to be written in the Aramaic script ([Megillah 1:8b.19](https://www.sefaria.org/Megillah.8b.19?lang=bi))!
+The Mishnah recognizes that even the Hebrew script we know today is originally an Aramaic script ([Megillah 1:8b.19](https://www.sefaria.org/Megillah.8b.19?lang=bi)).
 Because Ta'atik wants to make modules that are useful to the speakers and readers of those languages, we use the scripts common to those languages.
 
 Though in transliteration the _language_ remains the same (i.e. the source language), the target language is understood as the orthography and script of a particular audience.
