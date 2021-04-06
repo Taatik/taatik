@@ -41,11 +41,13 @@ For those in Hebraic studies, _šālôm_ may be a perfectly reasonable translite
 The second consideration, closely linked to the first, is the intent.
 What is this transliteration attempting to do?
 
-If the intent is to simply put transliterated Hebrew characters to avoid having right-to-left text, then any transliteration will do. <br/>
-If the intent is to highlight a relationship between words that would otherwise be obscured by their respective scripts, then a more technical transliteration may be in order (e.g. Arabic سلام _salām_ and Hebrew שׁלום _šālôm_ are related but that is not immediaty evident by their scripts). <br/>
+If the intent is to simply put transliterated Hebrew characters to avoid having right-to-left text, then any transliteration will do.
+
+If the intent is to highlight a relationship between words that would otherwise be obscured by their respective scripts, then a more technical transliteration may be in order (e.g. Arabic سلام _salām_ and Hebrew שׁלום _šālôm_ are related but that is not immediaty evident by their scripts).
+
 If the intent is to make the text readable and easily pronounced, then a transliteration that conforms to rules recognizable to the reader is better (e.g. _shalom_).
 
-Most of Ta'atik's modules are aimed at making Hebrew text readable for those who don't read Hebrew.
+Most of Ta'atik's modules are aimed at making Hebrew text readable for those who do not read Hebrew.
 
 ## The Audience's Target Language _&_ Script
 
@@ -84,7 +86,7 @@ The _bet_ has two variations — with a dagesh, like in the word above or withou
 The _dagesh_ affects the pronunciation of the _bet_; with the _dagesh_ it is realized as /b/, but without the _dagesh_ it is realized as /v/.
 
 The _dagesh_ affects the _bet_ in another way. In most Ashkenazic and Sephardic pronunciations (and Modern Hebrew which is based off of Sephardic), this is the only way the _dagesh_ affects the _bet_.
-In other traditions such as Yemenite and Tiberian, the  _dagesh_ also indicates, _gemination_ a feature where a consonant is held for an extended amount of time.
+In other traditions such as Yemenite and Tiberian, the _dagesh_ also indicates, _gemination_ a feature where a consonant is held for an extended amount of time.
 In Latin characters, this is often represented by doubling the letters — "bb."
 
 ### The _Qamets_
@@ -101,7 +103,7 @@ In Ashkenazic pronunciations, the sound of _qamets_ can fluctuate between the /a
 The final letter is _tav_, which like the _bet_ has variants with or without a _dagesh_.
 In almost all communities a _tav_ with a _dagesh_ is realized as /t/ though there are some minor exceptions.
 Without a _dagesh_, the pronunciation varies more widely.
-In Sephardic pronunciations,  it is realized as /t/ just like with a _dagesh_.
+In Sephardic pronunciations, it is realized as /t/ just like with a _dagesh_.
 In Yemenite and Tiberian, it has a /th/ sound.
 In Ashkenazic pronunciations, it is realized as /s/.
 
@@ -109,11 +111,11 @@ In Ashkenazic pronunciations, it is realized as /s/.
 
 We can see that even a common word can be transliterated in several ways:
 
-| Tradition |   Transliteration   |
-| :-------: | :-----------------: |
+| Tradition  |   Transliteration   |
+| :--------: | :-----------------: |
 | Sephardic  |      _shabbat_      |
-|  Yemenite   |      _shabbɔt_      |
-| Tiberian  |     _shabbɔth_      |
+|  Yemenite  |      _shabbɔt_      |
+|  Tiberian  |     _shabbɔth_      |
 | Ashkenazic | _shabbas_/_shabbos_ |
 
 There are other reading traditions that have not been considered here such as the ancient Babylonian tradition and the Romaniote tradition.
