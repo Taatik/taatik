@@ -15,7 +15,7 @@
     </div>
     {{ if .Params.author }}
     <div class="post-data">
-        Author: {{ humanize .Params.author }}
+        Author: {{ .Params.author }}
     </div>
     {{ end }}
     {{ if or .Site.Params.share.twitter .Site.Params.share.facebook .Site.Params.share.pinterest }}
