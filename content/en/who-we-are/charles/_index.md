@@ -7,7 +7,7 @@ imageOnRight: false
 weight: 10
 ---
 
-Charles is a fronten web developer who loves all languages, but Hebrew and JavaScript are his favorites.
+Charles is a frontend web developer who loves all languages, but Hebrew and JavaScript are his favorites.
 His love of Hebrew began at Boyce College, and he then earned an MA in Jewish Studies from Rutgers University.
 He has particiated in the academic world through writing articles, presenting at conferences, and freelance editorial work for publishers in the field.
 Charles became interested in using technology to help make his work easier.
