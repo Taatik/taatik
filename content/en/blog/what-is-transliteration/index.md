@@ -81,27 +81,27 @@ Things now become more interesting with the _bet_.
 The _bet_ has two variations — with a dagesh, like in the word above or without.
 The _dagesh_ affects the pronunciation of the _bet_; with the _dagesh_ it is realized as /b/, but without the _dagesh_ it is realized as /v/.
 
-The _dagesh_ affects the _bet_ in another way. In most Ashkenazi and Sephardi pronunciations (and Modern Hebrew which is based off of Sephardi), this is the only way the _dagesh_ affects the _bet_.
-In other traditions such as Yemeni and Tiberian, the also _dagesh_ indicates, _gemination_ a feature where a consonant is held for an extended amount of time.
+The _dagesh_ affects the _bet_ in another way. In most Ashkenazic and Sephardic pronunciations (and Modern Hebrew which is based off of Sephardic), this is the only way the _dagesh_ affects the _bet_.
+In other traditions such as Yemenite and Tiberian, the  _dagesh_ also indicates, _gemination_ a feature where a consonant is held for an extended amount of time.
 In Latin characters, this is often represented by doubling the letters — "bb."
 
 ### The _Qamets_
 
 At first, transliterating the _qamets_ may appear simple — "a."
 But the _patach_ is already represented by "a"!
-In Sephardi and Modern Hebrew, the sound of the _patach_ and _qamets_ are indistinguishable (except for the _qamets qatan_, but that's for another day).
-In Tiberian (the tradition of those who created the _niqqud_) and Yemeni, _patach_ and _qamets_ were separate sounds and thus represented by different characters. In these traditions, the _qamets_ is similar to the vowel sound in the word "thought."
+In Sephardic and Modern Hebrew, the sound of the _patach_ and _qamets_ are indistinguishable (except for the _qamets qatan_, but that's for another day).
+In Tiberian (the tradition of those who created the _niqqud_) and Yemenite, _patach_ and _qamets_ were separate sounds and thus represented by different characters. In these traditions, the _qamets_ is similar to the vowel sound in the word "thought."
 It is represented by this [ɔ] [IPA symbol](https://en.wikipedia.org/wiki/Open-mid_back_rounded_vowel).
-In Ashkenazi, the sound of _qamets_ can fluctuate between the /a/ sound and the /o/ sound.
+In Ashkenazic pronunciations, the sound of _qamets_ can fluctuate between the /a/ sound and the /o/ sound.
 
 ### The _Tav_
 
 The final letter is _tav_, which like the _bet_ has variants with or without a _dagesh_.
 In almost all communities a _tav_ with a _dagesh_ is realized as /t/ though there are some minor exceptions.
 Without a _dagesh_, the pronunciation varies more widely.
-In Sephardi it is realized as /t/ just like with a _dagesh_.
-In Yemeni and Tiberian, it has a /th/ sound.
-In Ashkenazi, it is realized as /s/.
+In Sephardic pronunciations,  it is realized as /t/ just like with a _dagesh_.
+In Yemenite and Tiberian, it has a /th/ sound.
+In Ashkenazic pronunciations, it is realized as /s/.
 
 ### Putting It All Together
 
@@ -109,10 +109,10 @@ We can see that even a common word can be transliterated in several ways:
 
 | Tradition |   Transliteration   |
 | :-------: | :-----------------: |
-| Sephardi  |      _shabbat_      |
-|  Yemeni   |      _shabbɔt_      |
+| Sephardic  |      _shabbat_      |
+|  Yemenite   |      _shabbɔt_      |
 | Tiberian  |     _shabbɔth_      |
-| Ashkenazi | _shabbas_/_shabbos_ |
+| Ashkenazic | _shabbas_/_shabbos_ |
 
 There are other reading traditions that have not been considered here such as the ancient Babylonian tradition and the Romaniote tradition.
 
