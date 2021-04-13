@@ -1,7 +1,7 @@
 ---
-title: "Contact"
+title: "צור קשר"
 draft: false
 weight: 0
 ---
 
-Contact Us
+תיצרו איתנו קשר
