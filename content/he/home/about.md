@@ -1,22 +1,21 @@
 ---
-title: "About"
+title: "קצת עלינו"
 draft: false
 image: "scroll-320-blue.png"
 weight: 0
 imageright: false
 ---
 
-Ta'atik makes digital tools that make ancient texts more accessible.
+תע׳עתיק מייצרת כלים דיגיטליים להנגשת טקסטים עתיקים.
 
-#### Our Name
+#### השם שלנו
 
-Ta'atik is a combination of the words תעתיק _ta'tik_ "transliteration" and עתיק _'atik_ "ancient."
-It encompasses our passion for Hebrew and making it more accessible.
+השם תע׳עתיק הוא שילוב משני מילים ״תעתיק״ ו״עתיק״ ומבטא את ההתלהבות שלנו לטקסטים בעברית ולמטרה להנגיש את השפה והטקסטים. 
 
-#### Who We Are
+#### תכירו אותנו
 
-Learn more about [who we are](./who-we-are).
+תלמדו מי אנחנו [וקצת עלינו](./who-we-are).
 
-#### Our Projects
+#### הפרויקטים שלנו
 
-Visit our [Projects](./projects) page to see a showcase of some of our tools.
+בואו תסתכלו על [דף הפרויקטים](./projects) לראות את הכלים שנוצרו עד עכשיו. 
