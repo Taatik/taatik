@@ -1,0 +1,12 @@
+{{ range .Pages.ByPublishDate.Reverse }}
+    <li class="post-item">
+        <bdi>
+        <span>
+            <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+        </span>
+        </bdi>
+        {{ if .Params.date }} - 
+        <span>{{ .Date.Format (.Site.Params.dateFormat | default "Jan 02, 2006") }}</span>
+        {{ end }}
+    </li>
+{{ end }}
