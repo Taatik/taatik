@@ -6,16 +6,20 @@
 
 {{ define "main" }}
 <div class="container">
-    <h2 class="title is-1 top-pad strong-post-title">
-        <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
-    </h2>
+    <bdi>
+        <h2 class="title is-1 top-pad strong-post-title">
+            <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+        </h2>
+    </bdi>  
     <div class="post-data">
+        <bdi>
         {{ if .Params.date }}{{ .Date.Format (.Site.Params.dateFormat | default "Jan 02, 2006") }} |{{ end }}
         {{ i18n "blog_readingTime" .ReadingTime }}
+        </bdi>
     </div>
     {{ if .Params.author }}
     <div class="post-data">
-        Author: {{ .Params.author }}
+        {{ i18n "blog_author" . }}: {{ .Params.author }}
     </div>
     {{ end }}
     {{ if or .Site.Params.share.twitter .Site.Params.share.facebook .Site.Params.share.pinterest }}
@@ -56,7 +60,9 @@
 </div>
 <!-- Begin blog post content -->
 <div class="container markdown top-pad">
+    <bdi>
     {{ .Content }}
+</bdi>
 </div>
 <!-- End blog post content -->
 {{ partial "comments.html" . }}
