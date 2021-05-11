@@ -21,3 +21,5 @@
     other = "{{ .Count }} דקות לקרואת"
 [blog_shareThis]
     other = "שתף"
+[blog_author]
+    other = "סופר"
