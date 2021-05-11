@@ -1,7 +1,7 @@
 ---
 title: "Hebräisch Umchrift"
 date: 2021-03-14T15:38:08-04:00
-draft: true
+draft: false
 weight: 3
 resources:
   - src: hebraish-umschrift-2400.png

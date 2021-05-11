@@ -1,7 +1,7 @@
 ---
 title: "Metagraphi"
 date: 2021-03-14T16:19:52-04:00
-draft: true
+draft: false
 weight: 2
 resources:
   - src: metagraphi-2400.png

@@ -1,7 +1,7 @@
 ---
 title: "What Is Transliteration?"
 date: 2021-03-21T19:20:59-04:00
-draft: true
+draft: false
 author: "Charles Loder"
 summary: "Translators often have to wrestle with the nuances of their languages.
 Words can sometimes have semantic domains that do not neatly map to words in the language into which they're translating. Unlike translation where one translates from one _language_ into another _language_, transliteration involves going from one _script_ into another _script_; the language remains the same."
