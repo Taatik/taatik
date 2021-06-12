@@ -1,46 +1,49 @@
 {{ define "main" }}
 <div class="section" id="{{ .File.TranslationBaseName }}">
   <div class="container">
-    {{ range sort .Pages .Params.weight }} {{ if .Params.Image }} {{ if
-    .Params.imageOnRight }}
-    <h1 class="title">{{.Title}}</h1>
-    <div class="columns">
-      <div class="markdown column">{{ .Content }}</div>
-      <div class="column is-one-third">
-        {{ with .Resources.ByType "image" }} {{ range . }}
-        <img
-          class="img-responsive avatar"
-          src="{{ .RelPermalink }}"
-          alt="{{ . }}"
-        />
-        {{ end }} {{ end }}
+    {{ range sort .Pages .Params.weight }} 
+      {{ if .Params.Image }} 
+        {{ if .Params.imageOnRight }}
+          <h1 class="title">{{.Title}}</h1>
+          <div class="columns">
+            <div class="markdown column">
+              {{ .Content }}
+            </div>
+            <div class="column is-one-third">
+              {{ with .Resources.ByType "image" }} 
+                {{ range . }}
+                  <img class="img-responsive avatar" src="{{ .RelPermalink }}" alt="{{ . }}" />
+                {{ end }} 
+              {{ end }}
+            </div>
+          </div>
+        {{ else }}
+          <h1 class="title">{{.Title}}</h1>
+          <div class="columns">
+            <div class="column is-one-third">
+              {{ with .Resources.ByType "image" }}
+                {{ range . }}
+                  <img class="img-responsive avatar" src="{{ .RelPermalink }}" alt="{{ . }}" />
+                {{ end }} 
+              {{ end }}
+            </div>
+            <div class="markdown column">
+              {{ .Content }}
+            </div>
+          </div>
+        {{ end }}
+        <!-- End of .Params.imageOnRight -->
+      {{ else }}
+        <!-- No Image -->
+        <div class="markdown has-text-centered has-text-left">
+          {{ .Content }}
+        </div>
+      {{ end }}
+      <!-- End of if Params.Image -->
+      <!-- Section with line -->
+      <div class="container">
+        <hr />
       </div>
-    </div>
-    {{ else }}
-    <h1 class="title">{{.Title}}</h1>
-    <div class="columns">
-      <div class="column is-one-third">
-        {{ with .Resources.ByType "image" }} {{ range . }}
-        <img
-          class="img-responsive avatar"
-          src="{{ .RelPermalink }}"
-          alt="{{ . }}"
-        />
-        {{ end }} {{ end }}
-      </div>
-      <div class="markdown column">{{ .Content }}</div>
-    </div>
-    {{ end }}
-    <!-- End of .Params.imageOnRight -->
-    {{ else }}
-    <!-- No Image -->
-    <div class="markdown has-text-centered has-text-left">{{ .Content }}</div>
-    {{ end }}
-    <!-- End of if Params.Image -->
-    <!-- Section with line -->
-    <div class="container">
-      <hr />
-    </div>
     {{ end }}
     <!-- end of range -->
   </div>
