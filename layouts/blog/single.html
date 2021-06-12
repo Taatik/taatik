@@ -5,18 +5,14 @@
 {{ end }}
 {{ define "main" }}
 <div class="container">
-<<<<<<< Updated upstream
     <bdi>
         <h2 class="title is-1 top-pad strong-post-title">
             <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
         </h2>
     </bdi>  
-=======
-<<<<<<< Updated upstream
     <h2 class="title is-1 top-pad strong-post-title">
         <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
     </h2>
->>>>>>> Stashed changes
     <div class="post-data">
         <bdi>
         {{ if .Params.date }}{{ .Date.Format (.Site.Params.dateFormat | default "Jan 02, 2006") }} |{{ end }}
@@ -25,11 +21,7 @@
     </div>
     {{ if .Params.author }}
     <div class="post-data">
-<<<<<<< Updated upstream
-        {{ i18n "blog_author" . }}: {{ .Params.author }}
-=======
-        Author: {{ .Params.author }}
-=======
+        {{ i18n "blog_author" . }}: {{ .Params.author }} Author: {{ .Params.author }}
   <bdi>
     <h2 class="title is-1 top-pad strong-post-title">
       <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
@@ -46,8 +38,6 @@
   {{ if .Params.author }}
     <div class="post-data">
       {{ i18n "blog_author" . }}: {{ .Params.author }}
->>>>>>> Stashed changes
->>>>>>> Stashed changes
     </div>
   {{ end }}
   {{ if or .Site.Params.share.twitter .Site.Params.share.facebook .Site.Params.share.pinterest }}
@@ -88,19 +78,13 @@
 </div>
 <!-- Begin blog post content -->
 <div class="container markdown top-pad">
-<<<<<<< Updated upstream
     <bdi>
     {{ .Content }}
 </bdi>
-=======
-<<<<<<< Updated upstream
     {{ .Content }}
-=======
   <bdi>
     {{ .Content }}
   </bdi>
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 </div>
 <!-- End blog post content -->
 {{ partial "comments.html" . }}
