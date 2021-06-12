@@ -1,0 +1,25 @@
+[nav_main]
+    other = "דף הבית"
+[404_title]
+    other = "404"
+[404_description]
+    other = "אופס! העמוד שביקשת לא נמצא"
+[index_projects_allProjects]
+    other = "כל פרויקטים"
+[index_blog_latestPosts]
+    other = "פוסטים חדשים"
+[index_blog_allPosts]
+    other = "כל פוסטים"
+[index_blog_readMore]
+    other = "קרא עוד"
+[index_currentTime]
+    other = "זמן מקומי"
+[nav_backToSection]
+    other = "{{ .Title }} בחזרה אל"
+[blog_readingTime]
+    one = "דקה אחת לקרואת"
+    other = "{{ .Count }} דקות לקרואת"
+[blog_shareThis]
+    other = "שתף"
+[blog_author]
+    other = "סופר"

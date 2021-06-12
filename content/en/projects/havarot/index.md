@@ -1,7 +1,7 @@
 ---
 title: "havarotjs"
 date: 2021-03-14
-draft: true
+draft: false
 weight: 1
 resources:
   - src: havarot-2400.png
