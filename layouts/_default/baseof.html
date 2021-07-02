@@ -36,6 +36,10 @@
         {{ block "js-include" . }}
         {{ partial "footer/scripts.html" . }}
         {{ end }}
+        {{ if .Params.js }}
+            {{ $js := resources.Get .Params.js }}
+            <script src="{{ $js.Permalink }}"></script>
+        {{ end }}   
         <!-- Include page specific scripts -->
         {{ block "customScripts" . }}
         {{ end }}
