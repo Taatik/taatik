@@ -1,0 +1,34 @@
+{
+  "name": "taatik",
+  "version": "1.0.0",
+  "description": "the homepage for ta'atik",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "netlify dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taatik/taatik.github.io.git"
+  },
+  "keywords": [
+    "taatik",
+    "ta'atik",
+    "hebrew",
+    "transliteration"
+  ],
+  "author": "charlesLoder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Taatik/taatik.github.io/issues"
+  },
+  "homepage": "https://github.com/Taatik/taatik.github.io#readme",
+  "devDependencies": {
+    "@netlify/functions": "^0.7.2",
+    "netlify-cli": "^3.37.37"
+  },
+  "dependencies": {
+    "metagraphi": "github:charlesLoder/metagraphi",
+    "umschrift": "github:charlesLoder/umschrift"
+  }
+}

@@ -9,3 +9,5 @@ resources:
       weight: -100 # Optional weighting for a specific image in this project folder
 draft: false
 ---
+
+Try them out [here](/transliterate)!

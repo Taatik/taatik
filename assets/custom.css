@@ -1,3 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap");
+
 .container.markdown.top-pad {
   max-width: 80ch;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-box {
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+}
+
+.control-contaier {
+  display: flex;
+  flex-direction: column;
+}
+
+.selection-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 0.75rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  transition: all 0.4s ease 0.2s;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #2ab8d4;
+  color: #fff;
+  letter-spacing: 0.2rem;
+  font-weight: bolder;
+}
+
+#input {
+  font-family: "Frank Ruhl Libre", "Times New Roman", "Serif";
+  font-size: large;
 }

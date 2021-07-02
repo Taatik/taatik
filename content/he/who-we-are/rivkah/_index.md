@@ -1,7 +1,7 @@
 ---
 title: "רבקה קארל"
 date: 2021-03-09T18:36:58-05:00
-draft: true
+draft: false
 image: "scroll-320-blue.png"
 imageOnRight: true
 weight: 5
