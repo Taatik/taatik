@@ -133,3 +133,9 @@ Additionally, the target audience may already have common conventions for some w
 Lastly, transliterations must be aware of which Hebrew they are using as a source language.
 Modern Hebrew has become the _de facto_ standard in many cases, but every community may not desire that.
 When that is the case, custom tools need to be developed.
+
+You can try out Ta'atik's different transliteration project below.
+
+<div class="btn-container">
+    <button type="button"class="button" onclick="location.href='/transliterate'">Try it out!</button>
+</div>
