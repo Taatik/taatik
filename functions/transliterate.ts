@@ -1,6 +1,7 @@
 import { Handler, HandlerEvent } from "@netlify/functions";
 import { Text as Metagraphi } from "metagraphi";
 import { Text as Umschrift } from "umschrift";
+import { Text as Translitteration } from "hebraisk-translitteration";
 
 type Data = {
   heb: string;
@@ -13,6 +14,8 @@ const chooseMethod = (method: string) => {
       return Metagraphi;
     case "umschrift":
       return Umschrift;
+    case "translitteration":
+      return Translitteration;
     default:
       throw new Error(`${method} is not a valid transliteration method`);
   }

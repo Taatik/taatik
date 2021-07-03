@@ -15,6 +15,7 @@ js: "transliterate.js"
     <div class="selection-container">
         <select name="methods" id="methods">
             <option value="none" selected disabled hidden>Choose a language...</option>
+            <option value="translitteration">Danish</option>
             <option value="umschrift">German</option>
             <option value="metagraphi">Greek</option>
         </select>

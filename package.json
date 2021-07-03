@@ -28,6 +28,7 @@
     "netlify-cli": "^3.37.37"
   },
   "dependencies": {
+    "hebraisk-translitteration": "github:Taatik/hebraisk-translitteration",
     "metagraphi": "github:charlesLoder/metagraphi",
     "umschrift": "github:charlesLoder/umschrift"
   }
