@@ -10,4 +10,6 @@ resources:
 draft: false
 ---
 
-Try them out [here](/transliterate)!
+<div class="btn-container">
+    <button type="button"class="button" onclick="location.href='/transliterate'">Try them out!</button>
+</div>
