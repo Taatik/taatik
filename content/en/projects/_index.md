@@ -8,8 +8,5 @@ resources:
     params:
       weight: -100 # Optional weighting for a specific image in this project folder
 draft: false
+cta_button: true
 ---
-
-<div class="btn-container">
-    <button type="button"class="button" onclick="location.href='/transliterate'">Try them out!</button>
-</div>
