@@ -35,9 +35,15 @@
             </div>
           </div>
           {{ end }}
-          <div class="container markdown has-text-centered">
-            {{ .Content }}
-          </div>
+          {{ if .Params.cta_button }}
+            <div class="container has-text-centered">
+              <div class="btn-container">
+                <button type="button"class="button" onclick="location.href='/transliterate'">
+                  {{ i18n "projects_cta" . }}
+                </button>
+              </div>
+            </div>
+          {{ end }}
         </div>
       </div>
       {{ if lt $numberOfProjectsToShow $totalProjects }}
