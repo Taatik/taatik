@@ -1,7 +1,10 @@
 import { Handler, HandlerEvent } from "@netlify/functions";
 import { Text as Metagraphi } from "metagraphi";
+import { version as metagraphiVersion } from "metagraphi/package.json";
 import { Text as Umschrift } from "umschrift";
+import { version as umschriftVersion } from "umschrift/package.json";
 import { Text as Translitteration } from "hebraisk-translitteration";
+import { version as translitterationVersion } from "hebraisk-translitteration/package.json";
 
 type Data = {
   heb: string;
@@ -11,11 +14,20 @@ type Data = {
 const chooseMethod = (method: string) => {
   switch (method) {
     case "metagraphi":
-      return Metagraphi;
+      return {
+        package: Metagraphi,
+        version: metagraphiVersion,
+      };
     case "umschrift":
-      return Umschrift;
+      return {
+        package: Umschrift,
+        version: umschriftVersion,
+      };
     case "translitteration":
-      return Translitteration;
+      return {
+        package: Translitteration,
+        version: translitterationVersion,
+      };
     default:
       throw new Error(`${method} is not a valid transliteration method`);
   }
@@ -29,13 +41,14 @@ const handler: Handler = async (event: HandlerEvent, context) => {
     }
 
     const data: Data = JSON.parse(event.body);
-    const text = chooseMethod(data.method.toLowerCase());
-    const heb = new text(data.heb);
+    const method = chooseMethod(data.method.toLowerCase());
+    const text = new method.package(data.heb);
 
     const resp = {
-      method: data.method,
+      method: `${method.package}`,
+      methodVersion: method.version,
       original: data.heb,
-      transliteration: heb.transliterate(),
+      transliteration: text.transliterate(),
     };
 
     return {
