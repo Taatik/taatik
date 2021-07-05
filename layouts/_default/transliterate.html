@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="container markdown top-pad">
+    <!-- Input -->
+    <div class="text-container">
+        <label for="input">{{ i18n "transliterate_input" }}:</label>
+        <textarea id="input" rows="4" class="text-box" dir="rtl" placeholder="{{ i18n "transliterate_hebrew_placeholder" }}"></textarea>
+    </div>
+
+    <!-- Control -->
+    <div class="control-container">
+        <div class="selection-container">
+            <select name="methods" id="methods">
+                <option value="none" selected disabled hidden>{{ i18n "transliterate_default" }}</option>
+                <option value="translitteration">{{ i18n "transliterate_danish" }}</option>
+                <option value="umschrift">{{ i18n "transliterate_german" }}</option>
+                <option value="metagraphi">{{ i18n "transliterate_greek" }}</option>
+            </select>
+        </div>
+        <div class="btn-container">
+            <button class='button' id='btn'>{{ i18n "transliterate_button" . }}</button>
+        </div>
+
+    </div>
+
+    <!-- Output -->
+    <div class="text-container">
+        <label for="output">{{ i18n "transliterate_output" . }}:</label>
+        <textarea id="output" rows="4" class="text-box" placeholder="{{ i18n "transliterate_output_placeholder" }}"></textarea>
+    </div>
+</div>
+{{ end }}

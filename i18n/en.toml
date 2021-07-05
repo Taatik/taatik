@@ -2,5 +2,24 @@
     other = "home"
 ["blog_author"]
     other = "Author"
+# custom
 [projects_cta]
     other = "Try them here!"
+[transliterate_input]
+    other = "Hebrew"
+[transliterate_hebrew_placeholder]
+    other = "שָלוֹם בּרוּכִים הַבָּאִים"
+[transliterate_default]
+    other = "Select a language..."
+[transliterate_danish]
+    other = "Danish"
+[transliterate_german]
+    other = "German"
+[transliterate_greek]
+    other = "Greek"
+[transliterate_button]
+    other = "Transliterate"
+[transliterate_output]
+    other = "Transliteration"
+[transliterate_output_placeholder]
+    other = "Shalom, Beruchim Habaim"
