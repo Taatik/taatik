@@ -11,9 +11,9 @@
         <div class="selection-container">
             <select name="methods" id="methods">
                 <option value="none" selected disabled hidden>{{ i18n "transliterate_default" }}</option>
-                <option value="translitteration">{{ i18n "transliterate_danish" }}</option>
-                <option value="umschrift">{{ i18n "transliterate_german" }}</option>
-                <option value="metagraphi">{{ i18n "transliterate_greek" }}</option>
+                {{ range sort .Params.languages "language" }}
+                <option value="{{ .method }}">{{ .language }}</option>
+                {{ end }}
             </select>
         </div>
         <div class="btn-container">
