@@ -32,12 +32,6 @@
     other = "שָלוֹם בּרוּכִים הַבָּאִים"
 [transliterate_default]
     other = "Select a language..."
-[transliterate_danish]
-    other = "Danish"
-[transliterate_german]
-    other = "German"
-[transliterate_greek]
-    other = "Greek"
 [transliterate_button]
     other = "Transliterate"
 [transliterate_output]
