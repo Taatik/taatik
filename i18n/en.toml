@@ -8,7 +8,7 @@
 [transliterate_input]
     other = "Hebrew"
 [transliterate_hebrew_placeholder]
-    other = "שָלוֹם בּרוּכִים הַבָּאִים"
+    other = "שָׁלוֹם בְּרוּכִים הַבָּאִים"
 [transliterate_default]
     other = "Select a language..."
 [transliterate_button]
