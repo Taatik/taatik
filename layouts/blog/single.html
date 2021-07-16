@@ -69,6 +69,13 @@
   <bdi>
     {{ .Content }}
   </bdi>
+  {{ if .Params.displayButton }}
+    <div class="btn-container">
+      <button type="button"class="button">
+        <a href='{{ "transliterate" | absLangURL }}'><bdi>{{ i18n "projects_cta" . }}</bdi></a>
+      </button>
+    </div>
+  {{ end }}
 </div>
 <!-- End blog post content -->
 {{ partial "comments.html" . }}
