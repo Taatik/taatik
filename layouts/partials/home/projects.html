@@ -38,8 +38,8 @@
           {{ if .Params.cta_button }}
             <div class="container has-text-centered">
               <div class="btn-container">
-                <button type="button"class="button" onclick="location.href='/transliterate'">
-                  {{ i18n "projects_cta" . }}
+                <button type="button"class="button">
+                  <a href='{{ "transliterate" | absLangURL }}'><bdi>{{ i18n "projects_cta" . }}</bdi></a>
                 </button>
               </div>
             </div>
