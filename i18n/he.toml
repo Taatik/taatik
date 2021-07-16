@@ -25,16 +25,16 @@
     other = "סופר"
 # custom
 [projects_cta]
-    other = "Try them here!"
+    other = "נסה אותם!"
 [transliterate_input]
-    other = "Hebrew"
+    other = "עברית"
 [transliterate_hebrew_placeholder]
     other = "שָׁלוֹם בְּרוּכִים הַבָּאִים"
 [transliterate_default]
-    other = "Select a language..."
+    other = "בחר לשון..."
 [transliterate_button]
-    other = "Transliterate"
+    other = "לתעתק"
 [transliterate_output]
-    other = "Transliteration"
+    other = "תעתיק"
 [transliterate_output_placeholder]
     other = "Shalom, Beruchim Habaim"
