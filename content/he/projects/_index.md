@@ -8,4 +8,5 @@ resources:
     params:
       weight: -100 # Optional weighting for a specific image in this project folder
 draft: false
+cta_button: true
 ---
