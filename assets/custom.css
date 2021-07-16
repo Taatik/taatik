@@ -46,6 +46,15 @@
   transition: all 0.4s ease 0.2s, box-shadow 0ms;
 }
 
+.button > a {
+  width: 100%;
+  color: inherit;
+}
+
+.button > a:hover {
+  color: inherit;
+}
+
 .button:hover,
 .button:focus-visible {
   background-color: #2ab8d4;
