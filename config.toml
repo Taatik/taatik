@@ -119,14 +119,14 @@ googleAnalytics = "G-YGH68MTPX9"
     #         description  = "Descripcion del sitio web"
     #         # footerText   = ""
 
-    [languages.de]
-        languageName     = "Deutsch"
-        languageCode     = "de"
-        contentDir       = "content/de"
-        weight           = 1
-        title            = "Ta'atik"
-        [languages.de.params]
-            description = "alte Texte für das digitale Zeit"
+    # [languages.de]
+    #     languageName     = "Deutsch"
+    #     languageCode     = "de"
+    #     contentDir       = "content/de"
+    #     weight           = 1
+    #     title            = "Ta'atik"
+    #     [languages.de.params]
+    #         description = "alte Texte für das digitale Zeit"
               # dateFormat   = "2. January 2006"
               # footerText   = ""
 
@@ -139,5 +139,5 @@ googleAnalytics = "G-YGH68MTPX9"
         title            = "תע׳עתיק"
         [languages.he.params]
             description = "טקסטים עתיקים לעידן הדיגיטלי"
-              # dateFormat   = "2. January 2006"
-              # footerText   = ""
+            # dateFormat   = "2. January 2006"
+            # footerText   = ""
