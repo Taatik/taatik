@@ -17,3 +17,7 @@
     other = "Transliteration"
 [transliterate_output_placeholder]
     other = "Shalom, Beruchim Habaim"
+[transliterate_instruction]
+    other = """Insert Hebrew text with nikkud.
+    You can copy and paste any text from sites such as <a target='_blank' href='https://sefaria.org'>Sefaria</a>
+    or <a target='_blank' href='https://www.mechon-mamre.org/'>Mechon Mamre</a>."""
