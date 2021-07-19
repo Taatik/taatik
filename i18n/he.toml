@@ -38,3 +38,7 @@
     other = "תעתיק"
 [transliterate_output_placeholder]
     other = "Shalom, Beruchim Habaim"
+[transliterate_instruction]
+    other = """הכנס טקסט בעברית עם נקודות.
+    אתה יכול להעתיק ולהדביק כל טקסט מאתרים כגון <a target='_blank' href='https://sefaria.org'>ספריא</a>
+    או <a target='_blank' href='https://www.mechon-mamre.org/'>מכון ממרא</a>."""
