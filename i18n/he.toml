@@ -29,7 +29,7 @@
 [transliterate_input]
     other = "עברית"
 [transliterate_hebrew_placeholder]
-    other = "שָׁלוֹם בְּרוּכִים הַבָּאִים"
+    other = "שָׁלוֹם, בְּרוּכִים הַבָּאִים"
 [transliterate_default]
     other = "בחר לשון..."
 [transliterate_button]
@@ -39,6 +39,6 @@
 [transliterate_output_placeholder]
     other = "Shalom, Beruchim Habaim"
 [transliterate_instruction]
-    other = """הכנס טקסט בעברית עם נקודות.
-    אתה יכול להעתיק ולהדביק כל טקסט מאתרים כגון <a target='_blank' href='https://sefaria.org'>ספריא</a>
+    other = """הכנס טקסט בעברית עם ניקוד.
+    אתה יכול להעתיק ולהדביק כל טקסט מאתרים כמו <a target='_blank' href='https://sefaria.org'>ספריא</a>
     או <a target='_blank' href='https://www.mechon-mamre.org/'>מכון ממרא</a>."""
