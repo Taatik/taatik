@@ -1,8 +1,13 @@
 {{ define "main" }}
 <div class="container markdown top-pad">
+
+    <div>
+        <p><bdi>{{ i18n "transliterate_instruction" | safeHTML }}</bdi></p>
+    </div>
+
     <!-- Input -->
     <div class="text-container">
-        <label for="input">{{ i18n "transliterate_input" }}:</label>
+        <label for="input"><bdi>{{ i18n "transliterate_input" }}</bdi>:</label>
         <textarea id="input" rows="4" class="text-box" dir="rtl" placeholder="{{ i18n "transliterate_hebrew_placeholder" }}"></textarea>
     </div>
 
@@ -17,7 +22,7 @@
             </select>
         </div>
         <div class="btn-container">
-            <button class='button' id='btn'>{{ i18n "transliterate_button" . }}</button>
+            <button class='button' id='btn'><bdi>{{ i18n "transliterate_button" . }}</bdi></button>
         </div>
 
     </div>

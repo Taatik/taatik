@@ -5,6 +5,7 @@ draft: false
 author: "Charles Loder"
 summary: "Translators often have to wrestle with the nuances of their languages.
 Words can sometimes have semantic domains that do not neatly map to words in the language into which they're translating. Unlike translation where one translates from one _language_ into another _language_, transliteration involves going from one _script_ into another _script_; the language remains the same."
+displayButton: true
 ---
 
 ![Hannukah Transliteration Chart](/img/hannukah-transliteration-chart-50-percent.jpg)
@@ -134,8 +135,4 @@ Lastly, transliterations must be aware of which Hebrew they are using as a sourc
 Modern Hebrew has become the _de facto_ standard in many cases, but every community may not desire that.
 When that is the case, custom tools need to be developed.
 
-You can try out Ta'atik's different transliteration project below.
-
-<div class="btn-container">
-    <button type="button"class="button" onclick="location.href='/transliterate'">Try it out!</button>
-</div>
+You can try out Ta'atik's different transliteration projects below.
