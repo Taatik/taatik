@@ -5,12 +5,12 @@ layout: "transliterate"
 # js is stored in /assets
 js: "transliterate.js"
 languages:
-  - language: "German"
+  - language: "גרמנית"
     method: "umschrift"
-  - language: "Danish"
+  - language: "דני"
     method: "Translitteration"
-  - language: "Greek"
+  - language: "יווני"
     method: "metagraphi"
-  - language: "Swedish"
+  - language: "שוודית"
     method: "HebreiskaTranslitteration"
 ---
