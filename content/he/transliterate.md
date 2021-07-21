@@ -11,4 +11,6 @@ languages:
     method: "Translitteration"
   - language: "Greek"
     method: "metagraphi"
+  - language: "Swedish"
+    method: "HebreiskaTranslitteration"
 ---
