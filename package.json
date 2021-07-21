@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "hebraisk-translitteration": "github:Taatik/hebraisk-translitteration",
+    "hebreiska-translitteration": "github:Taatik/hebreiska-translitteration",
     "metagraphi": "github:charlesLoder/metagraphi",
     "umschrift": "github:charlesLoder/umschrift"
   }

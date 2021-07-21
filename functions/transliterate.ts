@@ -5,6 +5,8 @@ import { Text as Umschrift } from "umschrift";
 import { version as umschriftVersion } from "umschrift/package.json";
 import { Text as Translitteration } from "hebraisk-translitteration";
 import { version as translitterationVersion } from "hebraisk-translitteration/package.json";
+import { Text as hebreiskaTranslitteration } from "hebreiska-translitteration";
+import { version as hebreiskaTranslitterationVersion } from "hebreiska-translitteration/package.json";
 
 type Data = {
   heb: string;
@@ -27,6 +29,11 @@ const chooseMethod = (method: string) => {
       return {
         package: Translitteration,
         version: translitterationVersion,
+      };
+    case "hebreiskatranslitteration":
+      return {
+        package: hebreiskaTranslitteration,
+        version: hebreiskaTranslitterationVersion,
       };
     default:
       throw new Error(`${method} is not a valid transliteration method`);
