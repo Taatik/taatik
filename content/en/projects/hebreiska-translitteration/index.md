@@ -9,5 +9,5 @@ resources:
       weight: -100
 ---
 
-[Hebraiska Translitteration](https://github.com/Taatik/hebreiska-translitteration) is a JavaScript module for transliterating Hebrew into Swedish.
+[Hebreiska Translitteration](https://github.com/Taatik/hebreiska-translitteration) is a JavaScript module for transliterating Hebrew into Swedish.
 It was developed with help from the Jewish community in Stockholm, and funding for this project was graciously provided by [Educating for Impact](https://educatingforimpact.com/)
