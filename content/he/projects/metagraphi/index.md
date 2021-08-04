@@ -9,5 +9,4 @@ resources:
       weight: -100
 ---
 
-[`Metagraphi`](https://charlesloder.github.io/metagraphi) is a web app for transliterating Hebrew into Greek characters using the Romaniote reading tradition.
-The JavaScript package that powers it can be found on [github](https://github.com/charlesLoder/metagraphi).
+[Metagraphi](https://github.com/Taatik/metagraphi) היא מודול ג'אווה סקריפט לתעתיק עברית ליוונית על פי המסורת הרומניוטים

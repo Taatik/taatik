@@ -9,5 +9,5 @@ resources:
       weight: -100
 ---
 
-'Havarotjs' היא חבילת Javascript שמפריד את ההברות במילה לפי ניקוד העברי.
+'Havarotjs' היא מודול ג'אווה סקריפט שמפריד את ההברות במילה לפי ניקוד העברי.
 החבילה נמצאת ב [npm](https://www.npmjs.com/package/havarotjs)
