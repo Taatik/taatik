@@ -9,5 +9,5 @@ resources:
       weight: -100
 ---
 
-`havarotjs` is a JavaScript package for getting syllabic data for Hebrew with niqqud.
+[Havarotjs](https://github.com/charlesLoder/havarot) is a JavaScript module for getting syllabic data about Hebrew text with niqqud.
 It can be found on [npm](https://www.npmjs.com/package/havarotjs).

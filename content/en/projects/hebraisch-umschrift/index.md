@@ -9,5 +9,5 @@ resources:
       weight: -100
 ---
 
-[`Hebräisch Umschrift`](https://charlesloder.github.io/hebraisch-umschrift) is a web app for transliterating Hebrew into German characters using a reading tradition similar to Modern Hebrew.
-The JavaScript package that powers it, Umschrift, can be found on [npm](https://www.npmjs.com/package/umschrift).
+[Hebräisch Umschrift](https://github.com/Taatik/hebraisch-umschrift) is a JavaScript module for transliterating Hebrew into German.
+It can be found on [npm](https://www.npmjs.com/package/umschrift).
