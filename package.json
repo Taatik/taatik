@@ -25,12 +25,13 @@
   "homepage": "https://github.com/Taatik/taatik.github.io#readme",
   "devDependencies": {
     "@netlify/functions": "^0.7.2",
-    "netlify-cli": "^3.37.37"
+    "netlify-cli": "^6.0.8",
+    "npm-check-updates": "^11.8.3"
   },
   "dependencies": {
     "hebraisk-translitteration": "github:Taatik/hebraisk-translitteration",
     "hebreiska-translitteration": "github:Taatik/hebreiska-translitteration",
-    "metagraphi": "github:charlesLoder/metagraphi",
-    "umschrift": "github:charlesLoder/umschrift"
+    "metagraphi": "github:Taatik/metagraphi",
+    "umschrift": "github:Taatik/umschrift"
   }
 }
