@@ -1,9 +1,9 @@
 [build]
-    publish = "public"
-    command = "hugo --gc --minify -t -v -b"
+  publish = "public"
+  command = "hugo --gc --minify -t -v -b"
 
 [build.environment]
-    HUGO_VERSION = "0.85.0"
+  HUGO_VERSION = "0.87.0"
 
 [functions]
   directory = "functions"
@@ -12,3 +12,6 @@
   from = "/api/*"
   to = "/.netlify/functions/:splat"
   status = 200
+
+[dev]
+  framework = "hugo"
