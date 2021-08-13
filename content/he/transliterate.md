@@ -8,7 +8,7 @@ languages:
   - language: "גרמנית"
     method: "umschrift"
   - language: "דני"
-    method: "Translitteration"
+    method: "HebraiskTranslitteration"
   - language: "יווני"
     method: "metagraphi"
   - language: "שוודית"

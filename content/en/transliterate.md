@@ -8,7 +8,7 @@ languages:
   - language: "German"
     method: "umschrift"
   - language: "Danish"
-    method: "Translitteration"
+    method: "HebraiskTranslitteration"
   - language: "Greek"
     method: "metagraphi"
   - language: "Swedish"
