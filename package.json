@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "netlify dev"
+    "start:dev": "netlify dev",
+    "debug": "netlify dev --inspect"
   },
   "repository": {
     "type": "git",
