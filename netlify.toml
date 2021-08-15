@@ -7,6 +7,16 @@
 
 [functions]
   directory = "functions"
+  node_bundler = "esbuild"
+  # prevents havarotjs.prototype.trasnliterate from being overwritten
+[functions.hebraiskTranslitteration]
+  external_node_modules = ["hebraisk-translitteration"]
+[functions.hebreiskaTranslitteration]
+  external_node_modules = ["hebreiska-translitteration"]
+[functions.umschrift]
+  external_node_modules = ["umschrift"]
+[functions.metagraphi]
+  external_node_modules = ["metagraphi"]
   
 [[redirects]]
   from = "/api/*"
