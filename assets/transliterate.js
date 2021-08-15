@@ -22,20 +22,20 @@ btn.addEventListener("click", async () => {
   try {
     const data = {
       heb: inputVal,
-      method: methods.value,
+      package: methods.value,
     };
-    const resp = await fetch("/api/transliterate", constructReq(data));
+    const resp = await fetch("/api/transliteration", constructReq(data));
 
     // check for an error, and print generic message to output
     if (resp.status !== 200) {
-      const err = await resp.json();
+      const error = await resp.json();
       output.value = "There was an error!";
-      throw new Error(err);
+      throw error;
     }
 
     const json = await resp.json();
     output.value = json.transliteration;
-  } catch (e) {
-    console.error(e);
+  } catch (error) {
+    console.error(error);
   }
 });

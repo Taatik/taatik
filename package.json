@@ -26,7 +26,9 @@
   "homepage": "https://github.com/Taatik/taatik.github.io#readme",
   "devDependencies": {
     "@netlify/functions": "^0.7.2",
+    "@types/node-fetch": "^2.5.12",
     "netlify-cli": "^6.0.8",
+    "node-fetch": "^2.6.1",
     "npm-check-updates": "^11.8.3"
   },
   "dependencies": {
