@@ -29,8 +29,8 @@
 
     <!-- Output -->
     <div class="text-container">
-        <label for="output">{{ i18n "transliterate_output" . }}:</label>
-        <textarea id="output" rows="4" class="text-box" placeholder="{{ i18n "transliterate_output_placeholder" }}"></textarea>
+        <label for="output"><bdi>{{ i18n "transliterate_output" . }}:</bdi></label>
+        <textarea id="output" dir="auto" rows="4" class="text-box" placeholder="{{ i18n "transliterate_output_placeholder" }}"></textarea>
     </div>
 </div>
 {{ end }}
