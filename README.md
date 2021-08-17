@@ -9,6 +9,9 @@ To create a local site for development:
 ```bash
 git clone https://github.com/Taatik/taatik.github.io.git
 cd taatik
+git submodule init
+git submodule update
+nvm use # need to have at least Node 15 for functions to run correctly
 npm install
 ```
 
