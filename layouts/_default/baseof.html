@@ -38,7 +38,7 @@
         {{ end }}
         {{ if .Params.js }}
             {{ $js := resources.Get .Params.js }}
-            <script src="{{ $js.Permalink }}"></script>
+            <script src="{{ $js.RelPermalink }}"></script>
         {{ end }}   
         <!-- Include page specific scripts -->
         {{ block "customScripts" . }}
