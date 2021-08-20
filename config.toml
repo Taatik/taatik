@@ -1,11 +1,11 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Ta'atik"
 theme = "introduction"
 googleAnalytics = "G-YGH68MTPX9"  
 
 [params]
-    themeStyle                   = "auto"                  # Choose "light" or "dark" or "auto"
+    themeStyle                   = "light"                  # Choose "light" or "dark" or "auto"
     favicon                      = "/img/favicon.ico"          # Path to favicon file
     showRSSButton                = false                   # Show rss button in navigation
     fadeIn                       = true                    # Turn on/off the fade-in effect
@@ -136,7 +136,7 @@ googleAnalytics = "G-YGH68MTPX9"
         languagedirection = "rtl"
         contentDir       = "content/he"
         weight           = 2
-        title            = "תע׳עתיק"
+        title            = "ת׳עתיק"
         [languages.he.params]
             description = "טקסטים עתיקים לעידן הדיגיטלי"
             # dateFormat   = "2. January 2006"
