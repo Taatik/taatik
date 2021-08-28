@@ -1,9 +1,11 @@
 [build]
   publish = "public"
-  command = "hugo"
+  command = "hugo --gc --minify"
 
-[build.environment]
+[context.production.environment]
   HUGO_VERSION = "0.87.0"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
 
 [functions]
   directory = "functions"
