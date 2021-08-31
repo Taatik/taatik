@@ -19,4 +19,4 @@ He developed his <a href="https://charlesloder.github.io/hebrewTransliteration/"
 [Academia](https://independentresearcher.academia.edu/CharlesLoder)
 ו [Github](https://github.com/charlesLoder).
 
-עם יצירת תע׳עתיק, צ׳ארלס מקוה שׁהשׁימושׁ בטכנולוגיה יעזור לאנשׁים וישׁפּר את חייהם
+עם יצירת ת׳עתיק, צ׳ארלס מקוה שׁהשׁימושׁ בטכנולוגיה יעזור לאנשׁים וישׁפּר את חייהם
