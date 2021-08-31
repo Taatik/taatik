@@ -18,7 +18,7 @@ googleAnalytics = "G-YGH68MTPX9"
     DefaultContentLanguage       = "en"                    # Default language for multilingual sites
     # disqusshortname            = ""                     # https://gohugo.io/content-management/comments
     fbShareImage                 = "/img/scroll-full-1200.png"
-    images                       = ["/img/scroll-full-1200.png"]
+    images                       = ["https://taatik.org/img/scroll-full-1200.png"]
 
     # Configure the home page
     [params.home]
