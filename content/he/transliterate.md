@@ -13,4 +13,6 @@ languages:
     method: "metagraphi"
   - language: "שוודית"
     method: "HebreiskaTranslitteration"
+  - language: "אנגלית"
+    method: "hebrew-transliteration"
 ---
