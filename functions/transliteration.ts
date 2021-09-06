@@ -1,6 +1,8 @@
 import { Handler, HandlerEvent } from "@netlify/functions";
 import { Req, Resp } from "./utils";
 import fetch from "node-fetch";
+import { transliterate } from "hebrew-transliteration";
+import { version as hTVersion } from "hebrew-transliteration/package.json";
 const { URL } = process.env;
 
 const constructReq = (req: Req) => {
@@ -15,9 +17,18 @@ const constructReq = (req: Req) => {
 
 const getResp = async (req: Req): Promise<Resp> => {
   const method = req.package.toLowerCase();
+  // no need for extra fetch for this package
+  if (method === "hebrew-transliteration") {
+    return {
+      package: method,
+      version: hTVersion,
+      original: req.heb,
+      transliteration: transliterate(req.heb, { isSimple: true }),
+    };
+  }
   const newReq = constructReq(req);
   const resp = await fetch(`${URL}/.netlify/functions/${method}`, newReq);
-  const json = await resp.json();
+  const json = (await resp.json()) as Resp;
   return resp.ok ? json : Promise.reject(json);
 };
 
